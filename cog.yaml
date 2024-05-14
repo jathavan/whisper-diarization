@@ -4,7 +4,5 @@ build:
   system_packages:
     - "ffmpeg"
   python_version: "3.11"
-  python_packages:
-    - "Cython"
   python_requirements: requirements.txt
 predict: "predict.py:Predictor"
