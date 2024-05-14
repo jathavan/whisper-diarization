@@ -3,6 +3,7 @@ build:
   gpu: true
   system_packages:
     - "ffmpeg"
+    - "git"
   python_version: "3.11"
   python_requirements: requirements.txt
 predict: "predict.py:Predictor"
