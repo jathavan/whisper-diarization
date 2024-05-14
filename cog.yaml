@@ -5,6 +5,6 @@ build:
     - "ffmpeg"
   python_version: "3.11"
   python_packages:
-    - "cython"
+    - "Cython"
   python_requirements: requirements.txt
 predict: "predict.py:Predictor"
